@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&family=Overpass:wght@300;600&family=Roboto:wght@400;700&family=Rubik:wght@300;400;500&family=Ubuntu:wght@500;700&display=swap');
+
+.ad {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&family=Overpass:wght@300;600&family=Roboto:wght@400;700&family=Rubik:wght@300;400;500&family=Ubuntu:wght@500;700&display=swap'); */
+/* 
+font-family: 'Epilogue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
