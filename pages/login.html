@@ -4,26 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/login.css" />
   </head>
   <body>
     <div class="container">
-        <div class="ad"></div>
+      <div class="ad">
+        Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <span></span>
+        <a href="#"
+          ><u>
+              ShopNow
+          </u></a
+        >
+      </div>
       <header>
-        <div class="logo">Exclusive</div>
-        <nav class="logo">
+        <a href="index.html"><div class="logo">Exclusive</div></a>
+        <nav class="navbar">
           <a href="#" class="nav-link">Home</a>
           <a href="#" class="nav-link">Contact</a>
           <a href="#" class="nav-link">About</a>
           <a href="#" class="nav-link">Sign up</a>
         </nav>
-        <input
+        <div class="inp">
+            <input
           type="search"
           name="Search"
           id="search-inp"
           placeholder="What are you looking for?"
-        />
+        /><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+        </div>
       </header>
+      <section class="sec1">
+        <div class="pic-space">
+            <img class="pic" src="../images/phonecart.png" alt="">
+        </div>
+        <div class="pic-info">
+            <form action="">
+                <h4>Log in to Exclusive</h4>
+            <p class="log">Enter your details below</p>
+            <input class="mail" type="email/number" name="email" id="email" placeholder="Email or phone number"><br>
+            <input class="password" type="password" name="password" id="password" placeholder="Password"><br>
+            <div class="but">
+                <button class="login" type="submit">Log in</button>
+            <a href="#">Forgot password?</a>
+            </div>
+            </form>
+        </div>
+      </section>
     </div>
   </body>
 </html>
