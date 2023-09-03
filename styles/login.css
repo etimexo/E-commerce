@@ -1,15 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&family=Overpass:wght@300;600&family=Roboto:wght@400;700&family=Rubik:wght@300;400;500&family=Ubuntu:wght@500;700&display=swap');
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.ad a {
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 13px;
+    font-weight: 700;
+}
 .ad {
     background-color: black;
     color: #fff;
     text-align: center;
+    width: 100%;
+    height: 6vh;
+    font-size: 12px;
+}
+.ad, .inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2% 5%;
+    border-bottom: 1px solid rgb(156, 153, 153);
 }
+header input {
+    width: 18vw;
+    padding: 6px;
+    background-color: #f5f5f5;
+    color: #d6d6d6;
+    border: none;
+}
+header .nav-link {
+    color: black;
+    padding-right: 20px;
+    font-size: 14px;
+}
+header .logo {
+    font-weight: 800;
+    color: #000;
+}
+.search-icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-left: -20px;
+}
+.sec1 {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.sec1 .pic-space {
+    /* width: 60%; */
+    width: 60%;
+}
+.sec1 .pic {
+    /* width: 80%; */
+    width: 80%;
+    position: relative;
+}
+.pic-info h4 {
+    margin-bottom: 2.5vh;
+    letter-spacing: .5mm;
+    font-size: 2rem ;
+}
+.pic-info p {
+    font-size: 1.2rem;
+}
+.pic-info .mail {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.pic-info .mail, .password {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
+.pic-info button {
+    display: inline-block;
+    background-color: #db4444;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    
+}
+.but {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&family=Overpass:wght@300;600&family=Roboto:wght@400;700&family=Rubik:wght@300;400;500&family=Ubuntu:wght@500;700&display=swap'); */
 /* 
