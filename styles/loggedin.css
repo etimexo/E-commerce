@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+  }
+  .ad a {
+    color: #fff;
+    padding-right: 10vw;
+    padding-left: 13px;
+    font-weight: 700;
+  }
+  .ad {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 6vh;
+    font-size: 12px;
+  }
+  .ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ad div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10vw;
+  }
+  .ad div svg {
+    padding-left: 5px;
+    width: 20px;
+  }
+  .ad div:hover,
+  .ad div:focus {
+    cursor: pointer;
+  }
